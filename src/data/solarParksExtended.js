@@ -1,0 +1,16 @@
+export const solarParksData = [
+  { id: "bhadla", rank: 1, name: "Bhadla Solar Park", state: "Rajasthan", capacityMW: 2245, year: 2017, status: "Operational", latitude: 27.5391, longitude: 71.9065 },
+  { id: "pavagada", rank: 2, name: "Pavagada Solar Park", state: "Karnataka", capacityMW: 2050, year: 2019, status: "Operational", latitude: 14.1001, longitude: 77.2807 },
+  { id: "kurnool", rank: 3, name: "Kurnool Ultra Mega Solar Park", state: "Andhra Pradesh", capacityMW: 1000, year: 2017, status: "Operational", latitude: 15.6819, longitude: 78.0373 },
+  { id: "npkunta", rank: 4, name: "NP Kunta Ultra Mega Solar Park", state: "Andhra Pradesh", capacityMW: 1500, year: 2016, status: "Operational", latitude: 14.0167, longitude: 78.2667 },
+  { id: "rewa", rank: 5, name: "Rewa Ultra Mega Solar Park", state: "Madhya Pradesh", capacityMW: 750, year: 2018, status: "Operational", latitude: 24.5362, longitude: 81.3037 },
+  { id: "charanka", rank: 6, name: "Charanka Solar Park", state: "Gujarat", capacityMW: 730, year: 2012, status: "Operational", latitude: 23.9197, longitude: 71.2032 },
+  { id: "kamuthi", rank: 7, name: "Kamuthi Solar Power Project", state: "Tamil Nadu", capacityMW: 648, year: 2016, status: "Operational", latitude: 9.3477, longitude: 78.3848 },
+  { id: "kadapa", rank: 8, name: "Kadapa Ultra Mega Solar Park", state: "Andhra Pradesh", capacityMW: 1000, year: 2020, status: "Operational", latitude: 14.4712, longitude: 78.8222 },
+  { id: "dholera", rank: 9, name: "Dholera Solar Park", state: "Gujarat", capacityMW: 5000, year: 2024, status: "Under Construction", latitude: 22.2155, longitude: 72.1855 },
+  { id: "mandsaur", rank: 10, name: "Mandsaur Solar Park", state: "Madhya Pradesh", capacityMW: 250, year: 2017, status: "Operational", latitude: 24.0326, longitude: 75.0682 },
+  { id: "galiveedu", rank: 11, name: "Galiveedu Solar Park", state: "Andhra Pradesh", capacityMW: 400, year: 2016, status: "Operational", latitude: 14.0041, longitude: 78.4619 },
+  { id: "raghanesda", rank: 12, name: "Raghanesda Solar Park", state: "Gujarat", capacityMW: 700, year: 2021, status: "Operational", latitude: 24.3015, longitude: 71.1215 },
+  { id: "bhla2", rank: 13, name: "Bhadla Phase II", state: "Rajasthan", capacityMW: 680, year: 2018, status: "Operational", latitude: 27.5400, longitude: 71.9100 },
+  { id: "pavagada-exp", rank: 14, name: "Pavagada Expansion", state: "Karnataka", capacityMW: 600, year: 2020, status: "Operational", latitude: 14.1100, longitude: 77.2900 },
+];

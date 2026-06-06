@@ -1,0 +1,43 @@
+const solarData = {
+  // STATES (28)
+  "andhra pradesh": { ghi: 5.9, ghi_unit: "kWh/m²/day", potential: 2153, potential_unit: "kWh/m²/year" },
+  "arunachal pradesh": { ghi: 4.5, ghi_unit: "kWh/m²/day", potential: 1642, potential_unit: "kWh/m²/year" },
+  "assam": { ghi: 4.8, ghi_unit: "kWh/m²/day", potential: 1752, potential_unit: "kWh/m²/year" },
+  "bihar": { ghi: 5.3, ghi_unit: "kWh/m²/day", potential: 1935, potential_unit: "kWh/m²/year" },
+  "chhattisgarh": { ghi: 5.7, ghi_unit: "kWh/m²/day", potential: 2080, potential_unit: "kWh/m²/year" },
+  "goa": { ghi: 5.5, ghi_unit: "kWh/m²/day", potential: 2007, potential_unit: "kWh/m²/year" },
+  "gujarat": { ghi: 6.2, ghi_unit: "kWh/m²/day", potential: 2263, potential_unit: "kWh/m²/year" },
+  "haryana": { ghi: 5.7, ghi_unit: "kWh/m²/day", potential: 2080, potential_unit: "kWh/m²/year" },
+  "himachal pradesh": { ghi: 5.2, ghi_unit: "kWh/m²/day", potential: 1898, potential_unit: "kWh/m²/year" },
+  "jharkhand": { ghi: 5.4, ghi_unit: "kWh/m²/day", potential: 1971, potential_unit: "kWh/m²/year" },
+  "karnataka": { ghi: 5.8, ghi_unit: "kWh/m²/day", potential: 2117, potential_unit: "kWh/m²/year" },
+  "kerala": { ghi: 5.1, ghi_unit: "kWh/m²/day", potential: 1861, potential_unit: "kWh/m²/year" },
+  "madhya pradesh": { ghi: 5.9, ghi_unit: "kWh/m²/day", potential: 2153, potential_unit: "kWh/m²/year" },
+  "maharashtra": { ghi: 5.8, ghi_unit: "kWh/m²/day", potential: 2117, potential_unit: "kWh/m²/year" },
+  "manipur": { ghi: 4.6, ghi_unit: "kWh/m²/day", potential: 1679, potential_unit: "kWh/m²/year" },
+  "meghalaya": { ghi: 4.4, ghi_unit: "kWh/m²/day", potential: 1606, potential_unit: "kWh/m²/year" },
+  "mizoram": { ghi: 4.5, ghi_unit: "kWh/m²/day", potential: 1642, potential_unit: "kWh/m²/year" },
+  "nagaland": { ghi: 4.6, ghi_unit: "kWh/m²/day", potential: 1679, potential_unit: "kWh/m²/year" },
+  "odisha": { ghi: 5.5, ghi_unit: "kWh/m²/day", potential: 2007, potential_unit: "kWh/m²/year" },
+  "punjab": { ghi: 5.6, ghi_unit: "kWh/m²/day", potential: 2044, potential_unit: "kWh/m²/year" },
+  "rajasthan": { ghi: 6.5, ghi_unit: "kWh/m²/day", potential: 2373, potential_unit: "kWh/m²/year" },
+  "sikkim": { ghi: 4.3, ghi_unit: "kWh/m²/day", potential: 1570, potential_unit: "kWh/m²/year" },
+  "tamil nadu": { ghi: 5.7, ghi_unit: "kWh/m²/day", potential: 2080, potential_unit: "kWh/m²/year" },
+  "telangana": { ghi: 6.0, ghi_unit: "kWh/m²/day", potential: 2190, potential_unit: "kWh/m²/year" },
+  "tripura": { ghi: 4.7, ghi_unit: "kWh/m²/day", potential: 1715, potential_unit: "kWh/m²/year" },
+  "uttar pradesh": { ghi: 5.4, ghi_unit: "kWh/m²/day", potential: 1971, potential_unit: "kWh/m²/year" },
+  "uttarakhand": { ghi: 5.2, ghi_unit: "kWh/m²/day", potential: 1898, potential_unit: "kWh/m²/year" },
+  "west bengal": { ghi: 5.2, ghi_unit: "kWh/m²/day", potential: 1898, potential_unit: "kWh/m²/year" },
+
+  // UNION TERRITORIES (8)
+  "andaman and nicobar islands": { ghi: 5.4, ghi_unit: "kWh/m²/day", potential: 1971, potential_unit: "kWh/m²/year" },
+  "chandigarh": { ghi: 5.5, ghi_unit: "kWh/m²/day", potential: 2007, potential_unit: "kWh/m²/year" },
+  "dadra and nagar haveli and daman and diu": { ghi: 5.8, ghi_unit: "kWh/m²/day", potential: 2117, potential_unit: "kWh/m²/year" },
+  "delhi": { ghi: 5.5, ghi_unit: "kWh/m²/day", potential: 2007, potential_unit: "kWh/m²/year" },
+  "jammu and kashmir": { ghi: 5.3, ghi_unit: "kWh/m²/day", potential: 1935, potential_unit: "kWh/m²/year" },
+  "ladakh": { ghi: 6.2, ghi_unit: "kWh/m²/day", potential: 2263, potential_unit: "kWh/m²/year" },
+  "lakshadweep": { ghi: 5.6, ghi_unit: "kWh/m²/day", potential: 2044, potential_unit: "kWh/m²/year" },
+  "puducherry": { ghi: 5.7, ghi_unit: "kWh/m²/day", potential: 2080, potential_unit: "kWh/m²/year" }
+};
+
+export default solarData;

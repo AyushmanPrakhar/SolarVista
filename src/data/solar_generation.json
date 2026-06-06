@@ -1,0 +1,3026 @@
+﻿[
+    {
+        "state":  "Andhra Pradesh",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  714.507
+    },
+    {
+        "state":  "Arunachal Pradesh",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  0.124
+    },
+    {
+        "state":  "Assam",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  24.84
+    },
+    {
+        "state":  "Bihar",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  26.0657
+    },
+    {
+        "state":  "Chhattisgarh",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  128.633482
+    },
+    {
+        "state":  "Dadra and Nagar Haveli and Daman and Diu",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  1.36717
+    },
+    {
+        "state":  "Delhi",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  17.211
+    },
+    {
+        "state":  "Goa",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  4.759
+    },
+    {
+        "state":  "Gujarat",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  1822.788
+    },
+    {
+        "state":  "Haryana",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  122.22
+    },
+    {
+        "state":  "Himachal Pradesh",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  8.33
+    },
+    {
+        "state":  "Jharkhand",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  1.47
+    },
+    {
+        "state":  "Karnataka",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  1455.989
+    },
+    {
+        "state":  "Kerala",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  157.2321
+    },
+    {
+        "state":  "Madhya Pradesh",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  736.021
+    },
+    {
+        "state":  "Maharashtra",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  778.09
+    },
+    {
+        "state":  "Manipur",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  0.742
+    },
+    {
+        "state":  "Mizoram",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  2.884
+    },
+    {
+        "state":  "Puducherry",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  1.02
+    },
+    {
+        "state":  "Punjab",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  90.25
+    },
+    {
+        "state":  "Rajasthan",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  3853.99746
+    },
+    {
+        "state":  "Tamil Nadu",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  1223.505
+    },
+    {
+        "state":  "Telangana",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  642.892
+    },
+    {
+        "state":  "Tripura",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  0.486846
+    },
+    {
+        "state":  "Uttar Pradesh",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  353.795
+    },
+    {
+        "state":  "Uttarakhand",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  27.65
+    },
+    {
+        "state":  "West Bengal",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  30.55151
+    },
+    {
+        "state":  "Andaman \u0026 Nicobar",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  1.71
+    },
+    {
+        "state":  "Odisha",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  56.203
+    },
+    {
+        "state":  "Chandigarh",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  0.4
+    },
+    {
+        "state":  "Lakshadweep",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  0.007643
+    },
+    {
+        "state":  "Jammu and Kashmir",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Ladakh",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Meghalaya",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Nagaland",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Sikkim",
+        "month":  "January",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Andhra Pradesh",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  758.40556
+    },
+    {
+        "state":  "Arunachal Pradesh",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  0.124
+    },
+    {
+        "state":  "Assam",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  23.62
+    },
+    {
+        "state":  "Bihar",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  26.0657
+    },
+    {
+        "state":  "Chhattisgarh",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  154.077833
+    },
+    {
+        "state":  "Dadra and Nagar Haveli and Daman and Diu",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  1.582372
+    },
+    {
+        "state":  "Delhi",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  17.211
+    },
+    {
+        "state":  "Goa",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  4.759
+    },
+    {
+        "state":  "Gujarat",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  1745.899
+    },
+    {
+        "state":  "Haryana",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  122.22
+    },
+    {
+        "state":  "Himachal Pradesh",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  12.98
+    },
+    {
+        "state":  "Jharkhand",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  1.47
+    },
+    {
+        "state":  "Karnataka",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  1494.585176
+    },
+    {
+        "state":  "Kerala",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  168.1021
+    },
+    {
+        "state":  "Madhya Pradesh",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  795.185
+    },
+    {
+        "state":  "Maharashtra",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  782.37
+    },
+    {
+        "state":  "Manipur",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  0.742
+    },
+    {
+        "state":  "Mizoram",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  2.884
+    },
+    {
+        "state":  "Puducherry",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  1.02
+    },
+    {
+        "state":  "Punjab",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  109.21
+    },
+    {
+        "state":  "Rajasthan",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  3769.237112
+    },
+    {
+        "state":  "Tamil Nadu",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  1705.456609
+    },
+    {
+        "state":  "Telangana",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  633.448928
+    },
+    {
+        "state":  "Tripura",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  0.486471
+    },
+    {
+        "state":  "Uttar Pradesh",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  447.37
+    },
+    {
+        "state":  "Uttarakhand",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  27.65
+    },
+    {
+        "state":  "West Bengal",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  32.813969
+    },
+    {
+        "state":  "Andaman \u0026 Nicobar",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  1.92
+    },
+    {
+        "state":  "Odisha",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  72.273
+    },
+    {
+        "state":  "Chandigarh",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  0.4
+    },
+    {
+        "state":  "Lakshadweep",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  0.007643
+    },
+    {
+        "state":  "Jammu and Kashmir",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Ladakh",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Meghalaya",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Nagaland",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Sikkim",
+        "month":  "February",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Andhra Pradesh",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  851.2
+    },
+    {
+        "state":  "Arunachal Pradesh",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  0.169
+    },
+    {
+        "state":  "Assam",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  27.99
+    },
+    {
+        "state":  "Bihar",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  35.097593
+    },
+    {
+        "state":  "Chhattisgarh",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  155.007833
+    },
+    {
+        "state":  "Dadra and Nagar Haveli and Daman and Diu",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  1.582372
+    },
+    {
+        "state":  "Delhi",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  17.211
+    },
+    {
+        "state":  "Goa",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  4.759
+    },
+    {
+        "state":  "Gujarat",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  3245.595
+    },
+    {
+        "state":  "Haryana",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  122.22
+    },
+    {
+        "state":  "Himachal Pradesh",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  16.39
+    },
+    {
+        "state":  "Jharkhand",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  1.47
+    },
+    {
+        "state":  "Karnataka",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  1636.038
+    },
+    {
+        "state":  "Kerala",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  179.9379
+    },
+    {
+        "state":  "Madhya Pradesh",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  888.455
+    },
+    {
+        "state":  "Maharashtra",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  899.3
+    },
+    {
+        "state":  "Manipur",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  0.742
+    },
+    {
+        "state":  "Mizoram",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  2.884
+    },
+    {
+        "state":  "Puducherry",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  1.02
+    },
+    {
+        "state":  "Punjab",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  142.3
+    },
+    {
+        "state":  "Rajasthan",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  5529.163032
+    },
+    {
+        "state":  "Tamil Nadu",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  1603.082
+    },
+    {
+        "state":  "Telangana",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  722.901
+    },
+    {
+        "state":  "Tripura",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  0.608568
+    },
+    {
+        "state":  "Uttar Pradesh",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  564.831
+    },
+    {
+        "state":  "Uttarakhand",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  27.65
+    },
+    {
+        "state":  "West Bengal",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  43.190355
+    },
+    {
+        "state":  "Andaman \u0026 Nicobar",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  2.83488
+    },
+    {
+        "state":  "Odisha",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  87.341
+    },
+    {
+        "state":  "Chandigarh",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  0.4
+    },
+    {
+        "state":  "Lakshadweep",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  0.007643
+    },
+    {
+        "state":  "Jammu and Kashmir",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Ladakh",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Meghalaya",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Nagaland",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Sikkim",
+        "month":  "March",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Andhra Pradesh",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  826.88
+    },
+    {
+        "state":  "Arunachal Pradesh",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  0.21263
+    },
+    {
+        "state":  "Assam",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  25.034
+    },
+    {
+        "state":  "Bihar",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  31.038246
+    },
+    {
+        "state":  "Chhattisgarh",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  163.865438
+    },
+    {
+        "state":  "Dadra and Nagar Haveli and Daman and Diu",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  1.582372
+    },
+    {
+        "state":  "Delhi",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  17.211
+    },
+    {
+        "state":  "Goa",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  4.759
+    },
+    {
+        "state":  "Gujarat",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  2371.727
+    },
+    {
+        "state":  "Haryana",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  122.22
+    },
+    {
+        "state":  "Himachal Pradesh",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  20.88
+    },
+    {
+        "state":  "Jharkhand",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  1.47
+    },
+    {
+        "state":  "Karnataka",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  1542.56
+    },
+    {
+        "state":  "Kerala",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  195.6708
+    },
+    {
+        "state":  "Madhya Pradesh",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  913.33
+    },
+    {
+        "state":  "Maharashtra",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  834.9
+    },
+    {
+        "state":  "Manipur",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  0.742
+    },
+    {
+        "state":  "Mizoram",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  2.884
+    },
+    {
+        "state":  "Puducherry",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  1.02
+    },
+    {
+        "state":  "Punjab",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  139.89
+    },
+    {
+        "state":  "Rajasthan",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  5687.918641
+    },
+    {
+        "state":  "Tamil Nadu",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  1571.113
+    },
+    {
+        "state":  "Telangana",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  648.277
+    },
+    {
+        "state":  "Tripura",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  0.5791
+    },
+    {
+        "state":  "Uttar Pradesh",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  528.981
+    },
+    {
+        "state":  "Uttarakhand",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  27.65
+    },
+    {
+        "state":  "West Bengal",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  43.574978
+    },
+    {
+        "state":  "Andaman \u0026 Nicobar",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  1.525023
+    },
+    {
+        "state":  "Odisha",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  83.92
+    },
+    {
+        "state":  "Chandigarh",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  0.4
+    },
+    {
+        "state":  "Lakshadweep",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  0.007643
+    },
+    {
+        "state":  "Jammu and Kashmir",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Ladakh",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Meghalaya",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Nagaland",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Sikkim",
+        "month":  "April",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Andhra Pradesh",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  689.571
+    },
+    {
+        "state":  "Arunachal Pradesh",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  0.938
+    },
+    {
+        "state":  "Assam",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  22.659
+    },
+    {
+        "state":  "Bihar",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  32.041491
+    },
+    {
+        "state":  "Chhattisgarh",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  152.917362
+    },
+    {
+        "state":  "Dadra and Nagar Haveli and Daman and Diu",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  1.690492
+    },
+    {
+        "state":  "Delhi",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  17.211
+    },
+    {
+        "state":  "Goa",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  4.759
+    },
+    {
+        "state":  "Gujarat",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  1995.335
+    },
+    {
+        "state":  "Haryana",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  118.98
+    },
+    {
+        "state":  "Himachal Pradesh",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  21.35
+    },
+    {
+        "state":  "Jharkhand",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  1.47
+    },
+    {
+        "state":  "Karnataka",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  1365.685
+    },
+    {
+        "state":  "Kerala",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  190.3937
+    },
+    {
+        "state":  "Madhya Pradesh",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  596.436
+    },
+    {
+        "state":  "Maharashtra",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  741.52
+    },
+    {
+        "state":  "Manipur",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  0.714
+    },
+    {
+        "state":  "Mizoram",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  1.921
+    },
+    {
+        "state":  "Puducherry",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  1.02
+    },
+    {
+        "state":  "Punjab",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  142.981018
+    },
+    {
+        "state":  "Rajasthan",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  5351.6772
+    },
+    {
+        "state":  "Tamil Nadu",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  1557.843
+    },
+    {
+        "state":  "Telangana",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  622.019
+    },
+    {
+        "state":  "Tripura",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  3.216
+    },
+    {
+        "state":  "Uttar Pradesh",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  516.552
+    },
+    {
+        "state":  "Uttarakhand",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  27.65
+    },
+    {
+        "state":  "West Bengal",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  40.31
+    },
+    {
+        "state":  "Andaman \u0026 Nicobar",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  1.33
+    },
+    {
+        "state":  "Odisha",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  84.46
+    },
+    {
+        "state":  "Chandigarh",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  0.66
+    },
+    {
+        "state":  "Lakshadweep",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  0.007643
+    },
+    {
+        "state":  "Jammu and Kashmir",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Ladakh",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Meghalaya",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Nagaland",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Sikkim",
+        "month":  "May",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Andhra Pradesh",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  689.15
+    },
+    {
+        "state":  "Arunachal Pradesh",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  0.171099
+    },
+    {
+        "state":  "Assam",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  25.222
+    },
+    {
+        "state":  "Bihar",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  25.875801
+    },
+    {
+        "state":  "Chhattisgarh",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  139.960922
+    },
+    {
+        "state":  "Dadra and Nagar Haveli and Daman and Diu",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  1.690492
+    },
+    {
+        "state":  "Delhi",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  17.211
+    },
+    {
+        "state":  "Goa",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  4.759
+    },
+    {
+        "state":  "Gujarat",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  1559.775
+    },
+    {
+        "state":  "Haryana",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  118.98
+    },
+    {
+        "state":  "Himachal Pradesh",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  19.89
+    },
+    {
+        "state":  "Jharkhand",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  1.47
+    },
+    {
+        "state":  "Karnataka",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  1191.493
+    },
+    {
+        "state":  "Kerala",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  164.2009
+    },
+    {
+        "state":  "Madhya Pradesh",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  556.487
+    },
+    {
+        "state":  "Maharashtra",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  701.79
+    },
+    {
+        "state":  "Manipur",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  0.714
+    },
+    {
+        "state":  "Mizoram",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  3.333768
+    },
+    {
+        "state":  "Puducherry",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  1.02
+    },
+    {
+        "state":  "Punjab",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  121.144598
+    },
+    {
+        "state":  "Rajasthan",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  4875.692831
+    },
+    {
+        "state":  "Tamil Nadu",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  1590.65
+    },
+    {
+        "state":  "Telangana",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  558.987
+    },
+    {
+        "state":  "Tripura",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  0.3906
+    },
+    {
+        "state":  "Uttar Pradesh",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  431.287
+    },
+    {
+        "state":  "Uttarakhand",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  27.65
+    },
+    {
+        "state":  "West Bengal",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  32.165
+    },
+    {
+        "state":  "Andaman \u0026 Nicobar",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  1
+    },
+    {
+        "state":  "Odisha",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  64.65
+    },
+    {
+        "state":  "Chandigarh",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  0.66
+    },
+    {
+        "state":  "Lakshadweep",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  0.007643
+    },
+    {
+        "state":  "Jammu and Kashmir",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Ladakh",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Meghalaya",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Nagaland",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Sikkim",
+        "month":  "June",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Andhra Pradesh",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  596.25
+    },
+    {
+        "state":  "Arunachal Pradesh",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  0.148
+    },
+    {
+        "state":  "Assam",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  27.537
+    },
+    {
+        "state":  "Bihar",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  20.925
+    },
+    {
+        "state":  "Chhattisgarh",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  91.902883
+    },
+    {
+        "state":  "Dadra and Nagar Haveli and Daman and Diu",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  1.690492
+    },
+    {
+        "state":  "Delhi",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  17.211
+    },
+    {
+        "state":  "Goa",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  4.759
+    },
+    {
+        "state":  "Gujarat",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  1488.688
+    },
+    {
+        "state":  "Haryana",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  118.98
+    },
+    {
+        "state":  "Himachal Pradesh",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  15.77
+    },
+    {
+        "state":  "Jharkhand",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  1.47
+    },
+    {
+        "state":  "Karnataka",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  1138.745
+    },
+    {
+        "state":  "Kerala",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  146.5193
+    },
+    {
+        "state":  "Madhya Pradesh",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  479.865
+    },
+    {
+        "state":  "Maharashtra",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  612.8
+    },
+    {
+        "state":  "Manipur",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  0.714
+    },
+    {
+        "state":  "Mizoram",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  2.91152
+    },
+    {
+        "state":  "Puducherry",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  1.02
+    },
+    {
+        "state":  "Punjab",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  109.885629
+    },
+    {
+        "state":  "Rajasthan",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  4631.3751
+    },
+    {
+        "state":  "Tamil Nadu",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  1608.26
+    },
+    {
+        "state":  "Telangana",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  476.191
+    },
+    {
+        "state":  "Tripura",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  0.4443
+    },
+    {
+        "state":  "Uttar Pradesh",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  394.964
+    },
+    {
+        "state":  "Uttarakhand",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  27.65
+    },
+    {
+        "state":  "West Bengal",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  27.366
+    },
+    {
+        "state":  "Andaman \u0026 Nicobar",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  1.367
+    },
+    {
+        "state":  "Odisha",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  54.56
+    },
+    {
+        "state":  "Chandigarh",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  0.63
+    },
+    {
+        "state":  "Lakshadweep",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  0.007643
+    },
+    {
+        "state":  "Jammu and Kashmir",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Ladakh",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Meghalaya",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Nagaland",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Sikkim",
+        "month":  "July",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Andhra Pradesh",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  610.33
+    },
+    {
+        "state":  "Arunachal Pradesh",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  0.149617
+    },
+    {
+        "state":  "Assam",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  27.537
+    },
+    {
+        "state":  "Bihar",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  24.06
+    },
+    {
+        "state":  "Chhattisgarh",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  93.592883
+    },
+    {
+        "state":  "Dadra and Nagar Haveli and Daman and Diu",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  1.690492
+    },
+    {
+        "state":  "Delhi",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  17.211
+    },
+    {
+        "state":  "Goa",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  4.759
+    },
+    {
+        "state":  "Gujarat",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  1644.057
+    },
+    {
+        "state":  "Haryana",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  118.98
+    },
+    {
+        "state":  "Himachal Pradesh",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  10.99
+    },
+    {
+        "state":  "Jharkhand",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  1.47
+    },
+    {
+        "state":  "Karnataka",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  1162.365
+    },
+    {
+        "state":  "Kerala",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  146.5193
+    },
+    {
+        "state":  "Madhya Pradesh",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  504.783
+    },
+    {
+        "state":  "Maharashtra",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  728.29
+    },
+    {
+        "state":  "Manipur",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  0.714
+    },
+    {
+        "state":  "Mizoram",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  2.91152
+    },
+    {
+        "state":  "Puducherry",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  1.02
+    },
+    {
+        "state":  "Punjab",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  102.160747
+    },
+    {
+        "state":  "Rajasthan",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  4790.671643
+    },
+    {
+        "state":  "Tamil Nadu",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  1666.14
+    },
+    {
+        "state":  "Telangana",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  473.654
+    },
+    {
+        "state":  "Tripura",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  0.482308
+    },
+    {
+        "state":  "Uttar Pradesh",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  375.308767
+    },
+    {
+        "state":  "Uttarakhand",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  27.65
+    },
+    {
+        "state":  "West Bengal",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  29.031
+    },
+    {
+        "state":  "Andaman \u0026 Nicobar",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  1.45189
+    },
+    {
+        "state":  "Odisha",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  66.124
+    },
+    {
+        "state":  "Chandigarh",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  0.83
+    },
+    {
+        "state":  "Lakshadweep",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  0.007643
+    },
+    {
+        "state":  "Jammu and Kashmir",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Ladakh",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Meghalaya",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Nagaland",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Sikkim",
+        "month":  "August",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Andhra Pradesh",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  573.916
+    },
+    {
+        "state":  "Arunachal Pradesh",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  0.127
+    },
+    {
+        "state":  "Assam",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  27.537
+    },
+    {
+        "state":  "Bihar",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  31.294868
+    },
+    {
+        "state":  "Chhattisgarh",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  152.62
+    },
+    {
+        "state":  "Dadra and Nagar Haveli and Daman and Diu",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  1.690492
+    },
+    {
+        "state":  "Delhi",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  17.211
+    },
+    {
+        "state":  "Goa",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  4.759
+    },
+    {
+        "state":  "Gujarat",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  1695.415
+    },
+    {
+        "state":  "Haryana",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  118.98
+    },
+    {
+        "state":  "Himachal Pradesh",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  9.81
+    },
+    {
+        "state":  "Jharkhand",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  1.47
+    },
+    {
+        "state":  "Karnataka",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  1722.872
+    },
+    {
+        "state":  "Kerala",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  188.8453
+    },
+    {
+        "state":  "Madhya Pradesh",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  541.254
+    },
+    {
+        "state":  "Maharashtra",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  707.45
+    },
+    {
+        "state":  "Manipur",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  0.714
+    },
+    {
+        "state":  "Mizoram",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  2.91152
+    },
+    {
+        "state":  "Puducherry",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  1.02
+    },
+    {
+        "state":  "Punjab",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  122.106048
+    },
+    {
+        "state":  "Rajasthan",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  4953.92
+    },
+    {
+        "state":  "Tamil Nadu",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  1665.81
+    },
+    {
+        "state":  "Telangana",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  463.895
+    },
+    {
+        "state":  "Tripura",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  0.547008
+    },
+    {
+        "state":  "Uttar Pradesh",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  421.21
+    },
+    {
+        "state":  "Uttarakhand",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  27.65
+    },
+    {
+        "state":  "West Bengal",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  32.148
+    },
+    {
+        "state":  "Andaman \u0026 Nicobar",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  1.25
+    },
+    {
+        "state":  "Odisha",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  66.89
+    },
+    {
+        "state":  "Chandigarh",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  0.83
+    },
+    {
+        "state":  "Lakshadweep",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  0.007643
+    },
+    {
+        "state":  "Jammu and Kashmir",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Ladakh",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Meghalaya",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Nagaland",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Sikkim",
+        "month":  "September",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Andhra Pradesh",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  570.36
+    },
+    {
+        "state":  "Arunachal Pradesh",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  0.127
+    },
+    {
+        "state":  "Assam",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  27.537
+    },
+    {
+        "state":  "Bihar",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  25.13
+    },
+    {
+        "state":  "Chhattisgarh",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  127.546959
+    },
+    {
+        "state":  "Dadra and Nagar Haveli and Daman and Diu",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  1.690492
+    },
+    {
+        "state":  "Delhi",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  17.211
+    },
+    {
+        "state":  "Goa",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  4.759
+    },
+    {
+        "state":  "Gujarat",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  1865.445
+    },
+    {
+        "state":  "Haryana",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  118.98
+    },
+    {
+        "state":  "Himachal Pradesh",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  12.54
+    },
+    {
+        "state":  "Jharkhand",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  1.47
+    },
+    {
+        "state":  "Karnataka",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  1273.821
+    },
+    {
+        "state":  "Kerala",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  187.3576
+    },
+    {
+        "state":  "Madhya Pradesh",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  622.965
+    },
+    {
+        "state":  "Maharashtra",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  920.46
+    },
+    {
+        "state":  "Manipur",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  0.714
+    },
+    {
+        "state":  "Mizoram",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  2.91152
+    },
+    {
+        "state":  "Puducherry",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  1.02
+    },
+    {
+        "state":  "Punjab",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  110.74187
+    },
+    {
+        "state":  "Rajasthan",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  4597.431109
+    },
+    {
+        "state":  "Tamil Nadu",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  1494.83
+    },
+    {
+        "state":  "Telangana",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  531.281
+    },
+    {
+        "state":  "Tripura",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  0.565808
+    },
+    {
+        "state":  "Uttar Pradesh",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  412.484
+    },
+    {
+        "state":  "Uttarakhand",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  27.65
+    },
+    {
+        "state":  "West Bengal",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  32.251
+    },
+    {
+        "state":  "Andaman \u0026 Nicobar",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  1.25
+    },
+    {
+        "state":  "Odisha",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  71.773
+    },
+    {
+        "state":  "Chandigarh",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  0.83
+    },
+    {
+        "state":  "Lakshadweep",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  0.007643
+    },
+    {
+        "state":  "Jammu and Kashmir",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Ladakh",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Meghalaya",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Nagaland",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Sikkim",
+        "month":  "October",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Andhra Pradesh",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  625.76
+    },
+    {
+        "state":  "Arunachal Pradesh",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  0.127
+    },
+    {
+        "state":  "Assam",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  28.685
+    },
+    {
+        "state":  "Bihar",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  24.65
+    },
+    {
+        "state":  "Chhattisgarh",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  170.315545
+    },
+    {
+        "state":  "Dadra and Nagar Haveli and Daman and Diu",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  1.690492
+    },
+    {
+        "state":  "Delhi",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  17.211
+    },
+    {
+        "state":  "Goa",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  4.759
+    },
+    {
+        "state":  "Gujarat",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  2044.683
+    },
+    {
+        "state":  "Haryana",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  118.98
+    },
+    {
+        "state":  "Himachal Pradesh",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  17.55
+    },
+    {
+        "state":  "Jharkhand",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  1.47
+    },
+    {
+        "state":  "Karnataka",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  1309.035
+    },
+    {
+        "state":  "Kerala",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  191.96
+    },
+    {
+        "state":  "Madhya Pradesh",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  680.754
+    },
+    {
+        "state":  "Maharashtra",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  962.67
+    },
+    {
+        "state":  "Manipur",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  0.714
+    },
+    {
+        "state":  "Mizoram",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  1.9054
+    },
+    {
+        "state":  "Puducherry",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  1.02
+    },
+    {
+        "state":  "Punjab",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  110.74187
+    },
+    {
+        "state":  "Rajasthan",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  4418.505075
+    },
+    {
+        "state":  "Tamil Nadu",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  1291.18
+    },
+    {
+        "state":  "Telangana",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  591.638
+    },
+    {
+        "state":  "Tripura",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  0.590708
+    },
+    {
+        "state":  "Uttar Pradesh",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  423.599
+    },
+    {
+        "state":  "Uttarakhand",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  27.65
+    },
+    {
+        "state":  "West Bengal",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  35.344
+    },
+    {
+        "state":  "Andaman \u0026 Nicobar",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  1.55
+    },
+    {
+        "state":  "Odisha",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  80.804
+    },
+    {
+        "state":  "Chandigarh",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  0.42
+    },
+    {
+        "state":  "Lakshadweep",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  0.007643
+    },
+    {
+        "state":  "Jammu and Kashmir",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Ladakh",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Meghalaya",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Nagaland",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Sikkim",
+        "month":  "November",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Andhra Pradesh",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  718.41
+    },
+    {
+        "state":  "Arunachal Pradesh",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  0.127
+    },
+    {
+        "state":  "Assam",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  28.685
+    },
+    {
+        "state":  "Bihar",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  21.319
+    },
+    {
+        "state":  "Chhattisgarh",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  186.412732
+    },
+    {
+        "state":  "Dadra and Nagar Haveli and Daman and Diu",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  1.690492
+    },
+    {
+        "state":  "Delhi",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  17.211
+    },
+    {
+        "state":  "Goa",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  4.759
+    },
+    {
+        "state":  "Gujarat",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  2195.09
+    },
+    {
+        "state":  "Haryana",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  164.31
+    },
+    {
+        "state":  "Himachal Pradesh",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  17.3
+    },
+    {
+        "state":  "Jharkhand",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  1.47
+    },
+    {
+        "state":  "Karnataka",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  2036.042
+    },
+    {
+        "state":  "Kerala",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  191.96
+    },
+    {
+        "state":  "Madhya Pradesh",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  901.3495
+    },
+    {
+        "state":  "Maharashtra",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  1051.21
+    },
+    {
+        "state":  "Manipur",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  0.714
+    },
+    {
+        "state":  "Mizoram",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  1.9054
+    },
+    {
+        "state":  "Puducherry",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  1.02
+    },
+    {
+        "state":  "Punjab",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  84.864788
+    },
+    {
+        "state":  "Rajasthan",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  4564.38
+    },
+    {
+        "state":  "Tamil Nadu",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  1630.79
+    },
+    {
+        "state":  "Telangana",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  632.155
+    },
+    {
+        "state":  "Tripura",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  0.537069
+    },
+    {
+        "state":  "Uttar Pradesh",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  353.767
+    },
+    {
+        "state":  "Uttarakhand",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  27.65
+    },
+    {
+        "state":  "West Bengal",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  30.051
+    },
+    {
+        "state":  "Andaman \u0026 Nicobar",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  1.55
+    },
+    {
+        "state":  "Odisha",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  79.419
+    },
+    {
+        "state":  "Chandigarh",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  0.67
+    },
+    {
+        "state":  "Lakshadweep",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  0.007643
+    },
+    {
+        "state":  "Jammu and Kashmir",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Ladakh",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Meghalaya",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Nagaland",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Sikkim",
+        "month":  "December",
+        "year":  2025,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Andhra Pradesh",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  789.37
+    },
+    {
+        "state":  "Arunachal Pradesh",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  0.088
+    },
+    {
+        "state":  "Assam",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  28.685
+    },
+    {
+        "state":  "Bihar",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  27.2705
+    },
+    {
+        "state":  "Chhattisgarh",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  193.15
+    },
+    {
+        "state":  "Dadra and Nagar Haveli and Daman and Diu",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  1.690492
+    },
+    {
+        "state":  "Delhi",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  17.211
+    },
+    {
+        "state":  "Goa",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  4.759
+    },
+    {
+        "state":  "Gujarat",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  2940.8945
+    },
+    {
+        "state":  "Haryana",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  164.31
+    },
+    {
+        "state":  "Himachal Pradesh",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  15.54
+    },
+    {
+        "state":  "Jharkhand",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  1.47
+    },
+    {
+        "state":  "Karnataka",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  1678.06
+    },
+    {
+        "state":  "Kerala",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  262.0344
+    },
+    {
+        "state":  "Madhya Pradesh",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  848.302
+    },
+    {
+        "state":  "Maharashtra",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  1020.17
+    },
+    {
+        "state":  "Manipur",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  0.714
+    },
+    {
+        "state":  "Mizoram",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  1.9054
+    },
+    {
+        "state":  "Puducherry",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  1.02
+    },
+    {
+        "state":  "Punjab",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  77.071225
+    },
+    {
+        "state":  "Rajasthan",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  4955.93
+    },
+    {
+        "state":  "Tamil Nadu",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  1683.11
+    },
+    {
+        "state":  "Telangana",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  603.268
+    },
+    {
+        "state":  "Tripura",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  0.525769
+    },
+    {
+        "state":  "Uttar Pradesh",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  386.376
+    },
+    {
+        "state":  "Uttarakhand",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  27.65
+    },
+    {
+        "state":  "West Bengal",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  35.482
+    },
+    {
+        "state":  "Andaman \u0026 Nicobar",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  1.55
+    },
+    {
+        "state":  "Odisha",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  86.381
+    },
+    {
+        "state":  "Chandigarh",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  0.67
+    },
+    {
+        "state":  "Lakshadweep",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  0.007643
+    },
+    {
+        "state":  "Jammu and Kashmir",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Ladakh",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Meghalaya",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Nagaland",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Sikkim",
+        "month":  "January",
+        "year":  2026,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Andhra Pradesh",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  953.91
+    },
+    {
+        "state":  "Arunachal Pradesh",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  0.076
+    },
+    {
+        "state":  "Assam",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  28.685
+    },
+    {
+        "state":  "Bihar",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  30.390155
+    },
+    {
+        "state":  "Chhattisgarh",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  199.626
+    },
+    {
+        "state":  "Dadra and Nagar Haveli and Daman and Diu",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  1.690492
+    },
+    {
+        "state":  "Delhi",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  17.211
+    },
+    {
+        "state":  "Goa",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  4.759
+    },
+    {
+        "state":  "Gujarat",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  3444.024
+    },
+    {
+        "state":  "Haryana",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  164.31
+    },
+    {
+        "state":  "Himachal Pradesh",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  17.57
+    },
+    {
+        "state":  "Jharkhand",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  1.47
+    },
+    {
+        "state":  "Karnataka",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  1696.216
+    },
+    {
+        "state":  "Kerala",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  262.0344
+    },
+    {
+        "state":  "Madhya Pradesh",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  629.4298
+    },
+    {
+        "state":  "Maharashtra",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  1020.17
+    },
+    {
+        "state":  "Manipur",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  0.714
+    },
+    {
+        "state":  "Mizoram",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  1.9054
+    },
+    {
+        "state":  "Puducherry",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  1.02
+    },
+    {
+        "state":  "Punjab",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  119.25
+    },
+    {
+        "state":  "Rajasthan",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  5399.4873
+    },
+    {
+        "state":  "Tamil Nadu",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  1745.24
+    },
+    {
+        "state":  "Telangana",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  604.029
+    },
+    {
+        "state":  "Tripura",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  0.52343
+    },
+    {
+        "state":  "Uttar Pradesh",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  486.904
+    },
+    {
+        "state":  "Uttarakhand",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  27.65
+    },
+    {
+        "state":  "West Bengal",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  39.393
+    },
+    {
+        "state":  "Andaman \u0026 Nicobar",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  1.55
+    },
+    {
+        "state":  "Odisha",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  83.62
+    },
+    {
+        "state":  "Chandigarh",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  0.67
+    },
+    {
+        "state":  "Lakshadweep",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  0.007643
+    },
+    {
+        "state":  "Jammu and Kashmir",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Ladakh",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Meghalaya",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Nagaland",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  0
+    },
+    {
+        "state":  "Sikkim",
+        "month":  "February",
+        "year":  2026,
+        "generation_mu":  0
+    }
+]

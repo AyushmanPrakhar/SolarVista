@@ -1,0 +1,232 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* RESET */
+body {
+  margin: 0;
+  transition: background 0.3s ease, color 0.3s ease;
+  font-family: 'Inter', sans-serif;
+}
+
+/* LIGHT */
+body.light {
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
+
+/* DARK */
+body.dark {
+  background-color: #0f172a;
+  color: #e2e8f0;
+}
+
+/* NIGHT LIGHT */
+body.night {
+  background-color: #1E1A14;
+  color: #F5E6C8;
+}
+
+/* CARD BASE */
+.card {
+  padding: 16px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+/* CARD PER THEME */
+body.light .card {
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+body.dark .card {
+  background-color: #1e293b;
+}
+
+body.night .card {
+  background-color: #2A241D;
+  border: 1px solid #3A3127;
+}
+/* FILTER THEME SUPPORT */
+
+body.light select {
+  background: white;
+  color: #0f172a;
+  border: 1px solid #cbd5f5;
+}
+
+body.dark select {
+  background: #1e293b;
+  color: #e2e8f0;
+  border: 1px solid #334155;
+}
+
+body.night select {
+  background: #2A241D;
+  color: #F5E6C8;
+  border: 1px solid #3A3127;
+}
+
+.solar-ghi-tooltip {
+  border: 1px solid rgba(226, 232, 240, 0.95) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.16) !important;
+  color: #0f172a !important;
+  font-size: 12px !important;
+  line-height: 1.55 !important;
+  padding: 10px 12px !important;
+}
+
+.solar-ghi-tooltip::before {
+  border-top-color: rgba(255, 255, 255, 0.95) !important;
+}
+
+.leaflet-container {
+  background: #f8fafc;
+  font-family: 'Inter', sans-serif;
+}
+
+.leaflet-control-container {
+  z-index: 600;
+}
+
+.leaflet-pane,
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 400;
+}
+/* GLASS EFFECT */
+.glass {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 14px;
+  padding: 16px;
+  transition: all 0.3s ease;
+}
+
+/* Theme variations */
+body.light .glass {
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+body.dark .glass {
+  background: rgba(30, 41, 59, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+body.night .glass {
+  background: rgba(42, 36, 29, 0.72);
+  border: 1px solid rgba(244, 185, 66, 0.18);
+}
+
+.night .bg-white {
+  background-color: #2A241D;
+}
+
+.night .bg-slate-50,
+.night .bg-slate-100 {
+  background-color: #1E1A14;
+}
+
+.night .bg-slate-900,
+.night .bg-slate-950 {
+  background-color: #1E1A14;
+}
+
+.night .border-slate-200,
+.night .border-slate-700,
+.night .border-slate-800,
+.night .ring-slate-200,
+.night .ring-slate-700,
+.night .ring-slate-800 {
+  border-color: #3A3127;
+  --tw-ring-color: #3A3127;
+}
+
+.night .text-slate-950,
+.night .text-slate-900,
+.night .text-white,
+.night .text-slate-100,
+.night .text-slate-200 {
+  color: #F5E6C8;
+}
+
+.night .text-slate-800,
+.night .text-slate-700,
+.night .text-slate-600,
+.night .text-slate-500,
+.night .text-slate-400,
+.night .text-slate-300 {
+  color: #C8B89A;
+}
+
+.night .text-amber-600,
+.night .text-amber-700,
+.night .text-amber-300 {
+  color: #F4B942;
+}
+
+.night .bg-amber-400 {
+  background-color: #F4B942;
+}
+/* HOVER LIFT */
+.hover-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.hover-card:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.solarvista-no-animations *,
+.solarvista-no-animations *::before,
+.solarvista-no-animations *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  scroll-behavior: auto !important;
+  transition-duration: 0.001ms !important;
+}
+
+.solarvista-compact .card,
+.solarvista-compact section,
+.solarvista-compact article {
+  --solarvista-compact-padding: 0.875rem;
+}
+
+.solarvista-compact section.rounded-xl,
+.solarvista-compact article.rounded-xl,
+.solarvista-compact .card {
+  padding: min(var(--solarvista-compact-padding), 1rem);
+}
+
+.solarvista-compact .space-y-8 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.solarvista-compact .space-y-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.875rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.875rem * var(--tw-space-y-reverse));
+}
+
+@media print {
+  aside,
+  nav {
+    display: none !important;
+  }
+  main {
+    padding: 0 !important;
+  }
+  .solar-intelligence-dashboard button {
+    display: none !important;
+  }
+  .solar-intelligence-dashboard {
+    background: white !important;
+    color: #0f172a !important;
+  }
+}

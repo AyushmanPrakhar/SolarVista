@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Bhadla Solar Park",
+    "capacity_mw": 2245,
+    "latitude": 27.5391,
+    "longitude": 71.9065
+  },
+  {
+    "name": "Pavagada Solar Park",
+    "capacity_mw": 2050,
+    "latitude": 14.1001,
+    "longitude": 77.2807
+  },
+  {
+    "name": "Kurnool Ultra Mega Solar Park",
+    "capacity_mw": 1000,
+    "latitude": 15.6819,
+    "longitude": 78.0373
+  },
+  {
+    "name": "Rewa Ultra Mega Solar Park",
+    "capacity_mw": 750,
+    "latitude": 24.5362,
+    "longitude": 81.3037
+  },
+  {
+    "name": "Charanka Solar Park",
+    "capacity_mw": 730,
+    "latitude": 23.9197,
+    "longitude": 71.2032
+  },
+  {
+    "name": "Kamuthi Solar Power Project",
+    "capacity_mw": 648,
+    "latitude": 9.3477,
+    "longitude": 78.3848
+  },
+  {
+    "name": "NP Kunta Ultra Mega Solar Park",
+    "capacity_mw": 1500,
+    "latitude": 14.0167,
+    "longitude": 78.2667
+  }
+]

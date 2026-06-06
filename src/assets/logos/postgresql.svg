@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <title>PostgreSQL</title>
+  <path fill="#336791" d="M15 50 C15 20, 85 20, 85 50 C85 80, 15 80, 15 50 M25 50 C25 70, 75 70, 75 50 C75 30, 25 30, 25 50"/>
+  <path fill="#336791" d="M40 40 Q50 30, 60 40 T70 50 Q60 60, 50 60 T30 50 Q40 40, 40 40"/>
+</svg>

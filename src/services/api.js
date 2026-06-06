@@ -1,0 +1,13 @@
+import axios from "axios";
+
+const API_URL = "http://localhost:5000";
+
+export const fetchGHIData = async () => {
+  try {
+    const response = await axios.get(`${API_URL}/api/ghi`);
+    return response.data;
+  } catch (error) {
+    console.error("Error fetching GHI data:", error);
+    return [];
+  }
+};
