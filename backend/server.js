@@ -1,4 +1,4 @@
-console.log("🚨 AUTH DEBUG VERSION LOADED");
+console.log("🚨 PRO-DEBUG VERSION: V2 - SCHEMA AWARE");
 import express from "express";
 import cors from "cors";
 import pg from "pg";
@@ -9,41 +9,99 @@ import { fileURLToPath } from "url";
 import path from "path";
 
 const { Pool } = pg;
-
-// ESM equivalent for __dirname and __filename
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
 const app = express();
 
 app.use(cors());
 app.use(express.json());
 
-// PostgreSQL Connection
+// --- Database Connection ---
 
-console.log("DATABASE_URL exists:", !!process.env.DATABASE_URL);
+const connectionString = process.env.DATABASE_URL ? process.env.DATABASE_URL.trim() : null;
 
-if (process.env.DATABASE_URL) {
-  console.log(
-    "DATABASE_URL host:",
-    process.env.DATABASE_URL.split("@")[1]
-  );
+if (!connectionString) {
+  console.error("❌ CRITICAL: DATABASE_URL is missing!");
 }
 
 const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
+  connectionString,
   ssl: {
     rejectUnauthorized: false,
   },
 });
 
-pool.query("SELECT NOW()")
-  .then(() => {
-    console.log("✅ PostgreSQL Connected Successfully");
-  })
-  .catch((err) => {
-    console.error("❌ Database Connection Error:", err);
-  });
+// Startup Diagnostics
+const runStartupDiagnostics = async () => {
+  console.log("==========================================");
+  console.log("🔍 STARTUP DATABASE DIAGNOSTICS");
+  try {
+    const res = await pool.query(`
+      SELECT 
+        current_database() as db, 
+        current_user as user, 
+        current_schema() as schema,
+        current_setting('search_path') as search_path,
+        NOW() as time
+    `);
+    
+    const { db, user, schema, search_path } = res.rows[0];
+    console.log(`📂 Database    : ${db}`);
+    console.log(`👤 User        : ${user}`);
+    console.log(`🧭 Schema      : ${schema}`);
+    console.log(`🛣️  Search Path : ${search_path}`);
+
+    const tableCheck = await pool.query(`
+      SELECT EXISTS (
+        SELECT FROM information_schema.tables 
+        WHERE table_schema = 'public' 
+        AND table_name = 'users'
+      );
+    `);
+    
+    if (tableCheck.rows[0].exists) {
+      console.log("✅ SUCCESS: 'users' table is visible in public schema.");
+    } else {
+      console.error("❌ ERROR: 'users' table is MISSING in public schema!");
+      
+      // List all tables that ARE visible
+      const allTables = await pool.query(`
+        SELECT table_name FROM information_schema.tables 
+        WHERE table_schema = 'public'
+      `);
+      console.log("📋 Visible Tables in 'public':", allTables.rows.map(t => t.table_name).join(", ") || "NONE");
+    }
+  } catch (err) {
+    console.error("❌ DIAGNOSTICS FAILED:", err.message);
+  }
+  console.log("==========================================");
+};
+
+runStartupDiagnostics();
+
+// --- Diagnostic Route ---
+app.get("/api/db-diagnostics", async (req, res) => {
+  try {
+    const dbInfo = await pool.query(`
+      SELECT 
+        current_database(), 
+        current_user, 
+        current_schema(), 
+        current_setting('search_path')
+    `);
+    const tables = await pool.query(`
+      SELECT table_name FROM information_schema.tables 
+      WHERE table_schema = 'public'
+    `);
+    
+    res.json({
+      timestamp: new Date().toISOString(),
+      connection: dbInfo.rows[0],
+      visible_tables_public: tables.rows.map(t => t.table_name),
+      env_db_url_provided: !!process.env.DATABASE_URL
+    });
+  } catch (error) {
+    res.status(500).json({ error: error.message, stack: error.stack });
+  }
+});
 
 // --- Authentication APIs ---
 
@@ -52,57 +110,47 @@ app.post("/api/signup", async (req, res) => {
   console.log("====== SIGNUP START ======");
   try {
     const { fullname, email, password } = req.body;
-    console.log("Request Body:", { fullname, email, password: password ? "********" : "MISSING" });
 
     if (!fullname || !email || !password) {
-      console.log("Validation Failure: Missing fields");
       return res.status(400).json({ error: "Required fields missing" });
     }
 
-    // Check if email already exists
-    console.log("Checking existing email:", email);
+    // Check if email already exists using EXPLICIT SCHEMA
     const existingUser = await pool.query(
-      "SELECT * FROM users WHERE email = $1",
+      "SELECT * FROM public.users WHERE email = $1",
       [email]
     );
 
     if (existingUser.rows.length > 0) {
-      console.log("Validation Failure: Email already exists");
       return res.status(400).json({ error: "Email already exists" });
     }
 
     // Hash password
-    console.log("Hashing password...");
     const salt = await bcrypt.genSalt(10);
     const hashedPassword = await bcrypt.hash(password, salt);
-    console.log("Generated Hash:", hashedPassword);
 
-    console.log("Inserting user into database...");
+    // INSERT using EXPLICIT SCHEMA
     const result = await pool.query(
-      `INSERT INTO users (fullname, email, password)
+      `INSERT INTO public.users (fullname, email, password)
        VALUES ($1, $2, $3)
        RETURNING id, fullname, email, created_at`,
       [fullname, email, hashedPassword]
     );
 
-    console.log("Insert Result:", result.rows);
     console.log("====== SIGNUP SUCCESS ======");
-
     res.status(201).json({
       message: "User Registered Successfully",
       user: result.rows[0],
     });
   } catch (error) {
-    console.error("");
     console.error("========== ERROR ==========");
     console.error("MESSAGE:", error.message);
-    console.error("STACK:", error.stack);
     console.error("FULL ERROR:", error);
     console.error("===========================");
-    console.error("");
 
     return res.status(500).json({
-      error: error.message
+      error: error.message,
+      hint: "Check /api/db-diagnostics to verify table existence"
     });
   }
 });
@@ -112,58 +160,33 @@ app.post("/api/login", async (req, res) => {
   console.log("====== LOGIN START ======");
   try {
     const { email, password } = req.body;
-    console.log("Request Body:", { email, password: password ? "********" : "MISSING" });
 
     if (!email || !password) {
-      console.log("Validation Failure: Email and password are required");
       return res.status(400).json({ error: "Email and password are required" });
     }
 
-    console.log("Searching email:", email);
+    // SELECT using EXPLICIT SCHEMA
     const result = await pool.query(
-      "SELECT * FROM users WHERE email = $1",
+      "SELECT * FROM public.users WHERE email = $1",
       [email]
     );
 
     if (result.rows.length === 0) {
-      console.log("User Not Found for email:", email);
       return res.status(404).json({ error: "User Not Found" });
     }
 
     const user = result.rows[0];
-    console.log("User Found:", { id: user.id, email: user.email, fullname: user.fullname });
-    console.log("Stored Password (from DB):", user.password);
-    console.log("Incoming Password:", password);
 
-    // IMPORTANT NOTE: If user.password is plain text (e.g., '123456'), 
-    // bcrypt.compare will return false because it expects a bcrypt hash.
-    
-    console.log("Running bcrypt.compare...");
-    let isMatch = false;
-    try {
-      isMatch = await bcrypt.compare(password, user.password);
-    } catch (bcryptError) {
-      console.error("bcrypt.compare error (likely not a hash):", bcryptError.message);
-      // If it's not a hash, fallback to direct comparison for debugging/legacy (ONLY IF WE WANT TO SUPPORT IT)
-      // isMatch = (password === user.password); 
-    }
-    
-    console.log("Compare Result:", isMatch);
-
+    const isMatch = await bcrypt.compare(password, user.password);
     if (!isMatch) {
-      console.log("Authentication Failure: Invalid Password");
       return res.status(401).json({ error: "Invalid Password" });
     }
 
-    // Generate JWT
-    console.log("Generating JWT...");
     const token = jwt.sign(
       { id: user.id, email: user.email },
       process.env.JWT_SECRET || "solarvista_secret_key",
       { expiresIn: "24h" }
     );
-    console.log("JWT Generated Successfully");
-    console.log("====== LOGIN SUCCESS ======");
 
     res.status(200).json({
       message: "Login Successful",
@@ -176,23 +199,11 @@ app.post("/api/login", async (req, res) => {
       },
     });
   } catch (error) {
-    console.error("");
-    console.error("========== ERROR ==========");
-    console.error("MESSAGE:", error.message);
-    console.error("STACK:", error.stack);
-    console.error("FULL ERROR:", error);
-    console.error("===========================");
-    console.error("");
-
-    return res.status(500).json({
-      error: error.message
-    });
+    return res.status(500).json({ error: error.message });
   }
 });
 
 // --- Utility APIs ---
-
-// GHI API (Legacy/Dashboard Support)
 app.get("/api/ghi", (req, res) => {
   res.json([
     { state: "Rajasthan", ghi: 6.5, solarPotential: "Very High" },
@@ -205,13 +216,7 @@ app.get("/", (req, res) => {
   res.send("SolarVista API is Running (ESM Mode)");
 });
 
-// Global Error Handler for Async Errors
-app.use((err, req, res, next) => {
-  console.error("Unhandled Error:", err.stack);
-  res.status(500).json({ error: "Internal Server Error" });
-});
-
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 10000;
 app.listen(PORT, () => {
-  console.log(`🚀 Server running on port ${PORT} in ESM mode`);
+  console.log(`🚀 Server running on port ${PORT}`);
 });
