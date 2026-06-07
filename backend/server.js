@@ -80,19 +80,27 @@ runStartupDiagnostics();
 // --- Diagnostic Route ---
 app.get("/api/db-diagnostics", async (req, res) => {
   try {
-    const dbInfo = await pool.query(`
-  SELECT
-    inet_server_addr(),
-    inet_server_port(),
-    current_database(),
-    current_user,
-    current_schema(),
-    current_setting('search_path')
+   const tables = await pool.query(`
+  SELECT table_name
+  FROM information_schema.tables
+  WHERE table_schema = 'public'
 `);
-    const tables = await pool.query(`
-      SELECT table_name FROM information_schema.tables 
-      WHERE table_schema = 'public'
-    `);
+
+const allTables = await pool.query(`
+  SELECT
+      table_schema,
+      table_name
+  FROM information_schema.tables
+  ORDER BY table_schema, table_name;
+`);
+
+res.json({
+  timestamp: new Date().toISOString(),
+  connection: dbInfo.rows[0],
+  visible_tables_public: tables.rows.map(t => t.table_name),
+  all_tables: allTables.rows,
+  env_db_url_provided: !!process.env.DATABASE_URL
+});
     
     res.json({
       timestamp: new Date().toISOString(),
