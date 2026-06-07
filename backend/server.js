@@ -19,6 +19,16 @@ app.use(cors());
 app.use(express.json());
 
 // PostgreSQL Connection
+
+console.log("DATABASE_URL exists:", !!process.env.DATABASE_URL);
+
+if (process.env.DATABASE_URL) {
+  console.log(
+    "DATABASE_URL host:",
+    process.env.DATABASE_URL.split("@")[1]
+  );
+}
+
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
   ssl: {
@@ -26,9 +36,9 @@ const pool = new Pool({
   },
 });
 
-pool.connect()
+pool.query("SELECT NOW()")
   .then(() => {
-    console.log("✅ PostgreSQL Connected Successfully (ESM)");
+    console.log("✅ PostgreSQL Connected Successfully");
   })
   .catch((err) => {
     console.error("❌ Database Connection Error:", err);
