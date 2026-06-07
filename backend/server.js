@@ -81,12 +81,14 @@ runStartupDiagnostics();
 app.get("/api/db-diagnostics", async (req, res) => {
   try {
     const dbInfo = await pool.query(`
-      SELECT 
-        current_database(), 
-        current_user, 
-        current_schema(), 
-        current_setting('search_path')
-    `);
+  SELECT
+    inet_server_addr(),
+    inet_server_port(),
+    current_database(),
+    current_user,
+    current_schema(),
+    current_setting('search_path')
+`);
     const tables = await pool.query(`
       SELECT table_name FROM information_schema.tables 
       WHERE table_schema = 'public'
