@@ -111,8 +111,8 @@ It acts as a bridge between raw scientific datasets and actionable engineering i
 ---
 
 # 6. End-to-End System Architecture
+<img width="8192" height="1587" alt="End-to-End System Architecture of SolarVista" src="https://github.com/user-attachments/assets/3bbc5961-3958-4627-b6b3-d80b4d59886c" />
 
-![End-to-End System Architecture](docs/images/system-architecture.png)
 
 The architecture consists of a React frontend communicating with a Node.js backend through REST APIs. The backend integrates PostgreSQL for persistent storage while simultaneously orchestrating requests to NASA POWER and OpenWeather APIs. The processed information is transformed into engineering analytics and presented through interactive dashboards.
 
@@ -120,7 +120,8 @@ The architecture consists of a React frontend communicating with a Node.js backe
 
 # 7. End-to-End Data Flow
 
-![End-to-End Data Flow](docs/images/data-flow.png)
+<img width="2825" height="4315" alt="User Workflow" src="https://github.com/user-attachments/assets/d6e012d8-350f-4443-b858-d6fd2ccb9aa3" />
+
 
 The overall data pipeline follows these stages:
 
@@ -139,7 +140,8 @@ The overall data pipeline follows these stages:
 
 # 8. API Integration Architecture
 
-![API Integration](docs/images/api-integration.png)
+<img width="5330" height="1430" alt="API Integration Architecture" src="https://github.com/user-attachments/assets/6119bc94-3992-408d-8e38-090384043050" />
+
 
 SolarVista integrates multiple external and internal services:
 
@@ -170,7 +172,8 @@ The backend consolidates responses from both APIs into unified analytics for fro
 
 # 9. Backend Analytics Pipeline
 
-![Backend Analytics Pipeline](docs/images/backend-analytics-pipeline.png)
+<img width="7601" height="1585" alt="Backend Analytics Pipeline" src="https://github.com/user-attachments/assets/c6cf2c60-0a57-4fc4-9bf4-a095ca734eb9" />
+
 
 The analytics engine performs:
 
@@ -196,7 +199,8 @@ Outputs include:
 
 # 10. Database Design (ER Diagram)
 
-![Database ER Diagram](docs/images/database-er-diagram.png)
+<img width="4960" height="3168" alt="Database Entity–Relationship (ER) Diagram" src="https://github.com/user-attachments/assets/fe37ccbe-b594-40fd-b0b8-99994f5bcd5f" />
+
 
 The PostgreSQL schema manages:
 
@@ -230,7 +234,7 @@ Relationships ensure normalized storage and maintain data integrity.
 
 # 11. User Workflow
 
-![User Workflow](docs/images/user-workflow.png)
+
 
 Typical workflow:
 
@@ -258,7 +262,8 @@ Typical workflow:
 
 # 12. Deployment Architecture
 
-![Deployment Architecture](docs/images/deployment-architecture.png)
+<img width="2940" height="3951" alt="Deployment Architecture" src="https://github.com/user-attachments/assets/fcc269b9-db3f-4639-bfe9-7c4740eecd4b" />
+
 
 Deployment strategy:
 
