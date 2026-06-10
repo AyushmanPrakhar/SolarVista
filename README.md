@@ -107,6 +107,9 @@ User Experience
 
  5. System Architecture
 
+    <img width="8192" height="1587" alt="End-to-End System Architecture of SolarVista" src="https://github.com/user-attachments/assets/a5baece1-e521-43f4-85cc-c7b260400fa0" />
+
+
 SolarVista follows a modular three-tier architecture consisting of:
 
 * Presentation Layer (React + Vite)
