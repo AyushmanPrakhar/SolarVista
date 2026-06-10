@@ -1,295 +1,337 @@
- SolarVista: Renewable Energy Intelligence & Analytics Platform
+# ☀️ SolarVista
 
- 1. Introduction
+## Renewable Energy Intelligence & Analytics Platform
 
-SolarVista is a full-stack renewable energy intelligence platform designed to bridge the gap between geospatial solar resource assessment, environmental analytics, and interactive data visualization. By integrating multiple scientific data sources with a modern web architecture, SolarVista provides researchers, engineers, policymakers, and students with actionable insights into solar energy potential and atmospheric conditions.
+SolarVista is a full-stack web platform designed to provide intelligent renewable energy analytics by integrating live weather information, solar resource assessment, and interactive visualizations into a unified dashboard. The platform combines real-time atmospheric observations with long-term solar radiation datasets to support engineers, researchers, students, policymakers, and renewable energy professionals in data-driven decision making.
 
-The platform combines real-time weather observations, historical solar radiation datasets, geospatial intelligence, and analytics dashboards to support informed decision-making in renewable energy planning and sustainability initiatives.
+---
 
- 2. What is SolarVista?
+# Table of Contents
 
-SolarVista is an integrated analytics ecosystem that transforms raw environmental and meteorological datasets into meaningful engineering intelligence.
+1. Introduction
+2. What is SolarVista?
+3. Platform Objectives
+4. Key Features
+5. Technology Stack
+6. End-to-End System Architecture
+7. End-to-End Data Flow
+8. API Integration Architecture
+9. Backend Analytics Pipeline
+10. Database Design (ER Diagram)
+11. User Workflow
+12. Deployment Architecture
+13. CI/CD Pipeline
+14. Research & Engineering Applications
+15. Sustainable Development Goals (SDGs)
+16. Installation & Local Setup
+17. Environment Variables
+18. Future Enhancements
+19. License
 
-The platform aggregates information from external APIs, processes and validates the data through a Node.js backend, stores application records in PostgreSQL, and presents insights through an interactive React-based dashboard.
+---
 
-Rather than serving as a simple weather application, SolarVista functions as a decision-support system capable of assisting in:
+# 1. Introduction
 
-* Solar resource assessment
-* Renewable energy planning
-* Climate-aware infrastructure analysis
+The transition toward sustainable energy systems requires accessible, data-driven tools capable of combining meteorological observations, solar resource assessment, and engineering analytics into a single platform.
+
+SolarVista addresses this challenge by integrating NASA POWER datasets, OpenWeather APIs, PostgreSQL databases, and modern web technologies into an interactive renewable energy intelligence platform.
+
+The system enables users to visualize weather conditions, explore solar resource potential, monitor environmental variables, and generate engineering insights through an intuitive dashboard.
+
+---
+
+# 2. What is SolarVista?
+
+SolarVista is a Renewable Energy Intelligence & Analytics Platform built using a modern full-stack architecture.
+
+The application aggregates information from multiple data sources and presents it through interactive dashboards that assist in:
+
+* Solar energy planning
+* Renewable energy research
+* Climate data analysis
 * Environmental monitoring
-* Academic research
 * Engineering feasibility studies
 * Educational demonstrations
-* Sustainability analysis
+* Data visualization
 
- 3. Key Features
+It acts as a bridge between raw scientific datasets and actionable engineering insights.
 
- Renewable Energy Intelligence
+---
 
-* Solar resource visualization
-* Solar irradiance analysis
-* Climate parameter exploration
-* Renewable energy indicators
+# 3. Platform Objectives
 
- Live Weather Analytics
+| Objective                    | Description                                         |
+| ---------------------------- | --------------------------------------------------- |
+| Renewable Energy Analytics   | Provide intelligent solar resource insights         |
+| Climate Intelligence         | Combine weather and solar datasets                  |
+| Engineering Decision Support | Assist project planning and feasibility analysis    |
+| Research Platform            | Enable academic and industrial studies              |
+| Interactive Visualization    | Present data through charts, KPIs, and dashboards   |
+| Educational Resource         | Help students understand renewable energy analytics |
 
-* Temperature monitoring
-* Relative humidity
-* Wind speed
-* Atmospheric pressure
-* Cloud conditions
-* Location-aware weather intelligence
+---
 
- Interactive Dashboards
+# 4. Key Features
 
-* KPI cards
-* Dynamic charts
-* Data visualization panels
-* User-friendly analytics interface
+* User Authentication (Login & Signup)
+* Responsive React Dashboard
+* Live Weather Monitoring
+* Solar Resource Intelligence
+* NASA POWER API Integration
+* OpenWeather API Integration
+* PostgreSQL-backed User Management
+* Interactive Charts & KPIs
+* Solar Map Module
+* Generation Dashboard
+* Aerosol Impact Analysis
+* Solar Parks Module
+* Feedback System
+* User Settings
+* Modern REST API Architecture
+* Secure Backend Processing
 
- Authentication System
+---
 
-* Secure login
-* User registration
-* Protected routes
-* Session management
+# 5. Technology Stack
 
-User Experience
+| Layer                 | Technologies             |
+| --------------------- | ------------------------ |
+| Frontend              | React.js, Vite           |
+| Styling               | CSS, Responsive UI       |
+| HTTP Client           | Axios                    |
+| Backend               | Node.js, Express.js      |
+| Database              | PostgreSQL               |
+| Authentication        | JWT-based authentication |
+| Weather API           | OpenWeather API          |
+| Solar Dataset         | NASA POWER API           |
+| Deployment (Frontend) | Vercel                   |
+| Deployment (Backend)  | Render                   |
+| Version Control       | Git & GitHub             |
 
-* Personalized settings
-* Feedback management
-* Responsive design
-* Modern dashboard UI
+---
 
- Data Integration
+# 6. End-to-End System Architecture
 
-* NASA POWER climate datasets
-* OpenWeather real-time weather API
-* PostgreSQL persistent storage
-* RESTful backend services
+![End-to-End System Architecture](docs/images/system-architecture.png)
 
- 4. Technology Stack
+The architecture consists of a React frontend communicating with a Node.js backend through REST APIs. The backend integrates PostgreSQL for persistent storage while simultaneously orchestrating requests to NASA POWER and OpenWeather APIs. The processed information is transformed into engineering analytics and presented through interactive dashboards.
 
- Frontend
+---
 
-* React.js
-* Vite
-* JavaScript (ES6+)
-* Axios
-* React Router
-* TailWind CSS
+# 7. End-to-End Data Flow
 
-## Backend
+![End-to-End Data Flow](docs/images/data-flow.png)
 
-* Node.js
-* Express.js
-* REST API Architecture
+The overall data pipeline follows these stages:
 
-## Database
+1. User interacts with the dashboard.
+2. React frontend issues HTTP requests using Axios.
+3. Node.js backend validates requests.
+4. PostgreSQL provides application and user data.
+5. OpenWeather supplies live atmospheric conditions.
+6. NASA POWER supplies solar radiation and climate variables.
+7. Backend aggregates and processes datasets.
+8. Analytics engine computes insights.
+9. Charts, KPIs, and visualizations are generated.
+10. Results are rendered on the dashboard.
 
-* PostgreSQL
+---
 
-## External APIs
+# 8. API Integration Architecture
 
-* NASA POWER API
-* OpenWeather API
+![API Integration](docs/images/api-integration.png)
 
-## Deployment
+SolarVista integrates multiple external and internal services:
 
-* Vercel (Frontend)
-* Render (Backend)
+## OpenWeather API
 
-## Version Control
-
-* Git
-* GitHub
-
- 5. System Architecture
-
-    <img width="8192" height="1587" alt="End-to-End System Architecture of SolarVista" src="https://github.com/user-attachments/assets/a5baece1-e521-43f4-85cc-c7b260400fa0" />
-
-
-SolarVista follows a modular three-tier architecture consisting of:
-
-* Presentation Layer (React + Vite)
-* Business Logic Layer (Node.js + Express)
-* Data Layer (PostgreSQL + External APIs)
-
-The frontend communicates with backend REST endpoints through Axios. The backend authenticates users, orchestrates API calls, processes incoming datasets, and returns normalized JSON responses to the client.
-
- 6. Data Flow Diagram
-
-The platform follows an end-to-end processing pipeline:
-
-1. User requests analytics through the dashboard.
-2. React frontend sends HTTP requests using Axios.
-3. Node.js backend validates the request.
-4. Backend retrieves information from:
-
-   * NASA POWER API
-   * OpenWeather API
-   * PostgreSQL database
-5. Data is cleaned, transformed, and aggregated.
-6. Analytics engine generates processed insights.
-7. Interactive charts and dashboards are rendered for the user.
-
-This pipeline ensures efficient data delivery while abstracting multiple data sources behind a unified interface.
-
- 7. API Integration
-
- NASA POWER API
-
-Used for scientific renewable energy datasets including:
-
-* Solar irradiance
-* Global horizontal irradiation
-* Meteorological variables
-* Long-term climate information
-* Renewable energy assessment parameters
-
- OpenWeather API
-
-Provides live environmental observations such as:
+Provides:
 
 * Temperature
 * Humidity
-* Wind speed
-* Cloud cover
-* Atmospheric pressure
-* Weather conditions
+* Wind Speed
+* Atmospheric Pressure
+* Cloud Cover
+* Weather Conditions
 
- Internal Backend API
+## NASA POWER API
 
-The Express backend acts as an orchestration layer responsible for:
+Provides:
 
-* Authentication
-* Business logic
-* API aggregation
-* Data validation
-* Error handling
-* JSON response formatting
+* Solar Irradiance
+* Global Horizontal Irradiance
+* Meteorological Variables
+* Climate Data
+* Renewable Energy Datasets
 
+The backend consolidates responses from both APIs into unified analytics for frontend visualization.
 
+---
 
- 8. Database Design 
+# 9. Backend Analytics Pipeline
 
-The PostgreSQL database stores persistent application data including:
+![Backend Analytics Pipeline](docs/images/backend-analytics-pipeline.png)
 
-* User accounts
-* Authentication records
+The analytics engine performs:
+
+* Data acquisition
+* Validation
+* Data cleaning
+* Aggregation
+* API fusion
+* Processing
+* KPI generation
+* Visualization preparation
+* Renewable energy intelligence generation
+
+Outputs include:
+
+* Weather cards
+* Interactive charts
+* Solar maps
+* Dashboard widgets
+* Engineering insights
+
+---
+
+# 10. Database Design (ER Diagram)
+
+![Database ER Diagram](docs/images/database-er-diagram.png)
+
+The PostgreSQL schema manages:
+
+## USERS
+
+* User profiles
+* Authentication credentials
+* Roles
+* Account creation timestamps
+
+## SESSIONS
+
 * Login sessions
-* User settings
-* Feedback submissions
+* Authentication tokens
 
-Primary and foreign key relationships ensure referential integrity while enabling secure user management and personalization.
+## USER_SETTINGS
 
- 9. User Workflow
+* Preferences
+* Themes
+* Configuration
 
-The typical user journey is:
+## FEEDBACK
 
-1. Visit the landing page.
-2. Register or log in.
-3. Authenticate credentials.
-4. Access the protected dashboard.
-5. Navigate between analytics modules:
+* User submissions
+* Messages
+* Support requests
 
-   * Solar Intelligence
-   * Generation Analytics
-   * Aerosol Impact
+Relationships ensure normalized storage and maintain data integrity.
+
+---
+
+# 11. User Workflow
+
+![User Workflow](docs/images/user-workflow.png)
+
+Typical workflow:
+
+1. User opens SolarVista.
+2. Landing page loads.
+3. Existing users log in; new users register.
+4. Authentication is validated.
+5. Dashboard becomes accessible.
+6. Users navigate modules:
+
+   * Overview
    * Solar Map
+   * Solar Resource Intelligence
+   * Generation Dashboard
+   * Aerosol Analysis
    * Solar Parks
- Submit feedback or configure preferences.
- Log out securely.
+   * Feedback
+   * Settings
+7. Backend fetches weather and solar datasets.
+8. Data processing generates analytics.
+9. Interactive visualizations and insights are displayed.
+10. User reviews results and logs out.
 
+---
 
- 10. Deployment Architecture
+# 12. Deployment Architecture
 
-SolarVista is deployed using a cloud-native architecture.
+![Deployment Architecture](docs/images/deployment-architecture.png)
 
-* Source code is maintained on GitHub.
-* Frontend is automatically deployed on Vercel.
-* Backend API services are deployed on Render.
-* PostgreSQL serves as the persistent database.
-* External APIs provide renewable energy and weather datasets.
+Deployment strategy:
 
-This separation enables scalability, maintainability, and independent deployment of frontend and backend components.
+* Source code maintained in GitHub.
+* Frontend automatically deployed on Vercel.
+* Backend hosted on Render.
+* PostgreSQL serves persistent storage.
+* NASA POWER and OpenWeather APIs provide external datasets.
+* Browser communicates with backend over REST APIs.
 
-# 11. CI/CD Pipeline
+---
 
-Development follows a continuous integration and deployment workflow:
+# 13. CI/CD Pipeline
 
-Developer → Git → GitHub Repository → Push → Automated Deployment
+SolarVista follows a Git-based continuous deployment workflow.
 
-* Frontend builds are deployed to Vercel.
-* Backend services are deployed to Render.
-* Production updates become available with minimal manual intervention.
+```text
+Developer
+    │
+    ▼
+Git Commit
+    │
+    ▼
+GitHub Repository
+    │
+    ▼
+Automatic Build Trigger
+    │
+ ┌──┴───────────┐
+ ▼              ▼
+Vercel      Render
+Frontend    Backend
+    │              │
+    └──────┬───────┘
+           ▼
+ Production Deployment
+```
 
-This workflow promotes rapid iteration and reliable software delivery.
+Every push to the main branch automatically updates production deployments.
 
+---
 
- 12. Research & Engineering Applications
+# 14. Research & Engineering Applications
 
-SolarVista supports a variety of technical and scientific use cases.
+| Domain                 | Application                        |
+| ---------------------- | ---------------------------------- |
+| Solar PV Planning      | Resource assessment                |
+| Renewable Energy       | Site evaluation                    |
+| Smart Grids            | Decision support                   |
+| Environmental Science  | Climate monitoring                 |
+| Electrical Engineering | Solar feasibility studies          |
+| Academia               | Research projects                  |
+| GIS & Mapping          | Spatial visualization              |
+| Policy Analysis        | Sustainable energy planning        |
+| Education              | Teaching renewable energy concepts |
 
- Renewable Energy Engineering
+---
 
-* Solar farm planning
-* Rooftop PV assessment
-* Site suitability studies
-* Resource estimation
-
- Environmental Science
-
-* Weather monitoring
-* Climate trend evaluation
-* Atmospheric condition analysis
-
- Academic Research
-
-* Renewable energy modeling
-* Data visualization
-* API integration studies
-* Smart energy system research
-
- Urban Planning
-
-* Sustainable infrastructure planning
-* Clean energy policy support
-* Regional resource assessment
-
- Education
-
-* Demonstrating full-stack architecture
-* Teaching API integration
-* Learning geospatial analytics
-* Software engineering case studies
-
-13. Sustainable Development Goals (SDGs)
+# 15. Sustainable Development Goals (SDGs)
 
 SolarVista aligns with several United Nations Sustainable Development Goals:
 
- SDG 7: Affordable and Clean Energy
+| SDG    | Contribution                            |
+| ------ | --------------------------------------- |
+| SDG 7  | Affordable and Clean Energy             |
+| SDG 9  | Industry, Innovation and Infrastructure |
+| SDG 11 | Sustainable Cities and Communities      |
+| SDG 12 | Responsible Consumption and Production  |
+| SDG 13 | Climate Action                          |
 
-Supports renewable energy planning and solar resource utilization.
+---
 
- SDG 9: Industry, Innovation and Infrastructure
-
-Encourages digital innovation through intelligent analytics and engineering tools.
-
- SDG 11: Sustainable Cities and Communities
-
-Provides data-driven insights for resilient and sustainable urban energy systems.
-
- SDG 12: Responsible Consumption and Production
-
-Promotes efficient energy resource assessment and informed decision-making.
-
- SDG 13: Climate Action
-
-Leverages climate and weather datasets to aid environmental monitoring and adaptation strategies.
-
-14. Installation & Local Setup
+# 16. Installation & Local Setup
 
 Clone the repository:
 
@@ -298,19 +340,19 @@ git clone https://github.com/your-username/SolarVista.git
 cd SolarVista
 ```
 
-Install dependencies:
+Install frontend dependencies:
 
 ```bash
 npm install
 ```
 
-Start the frontend:
+Run the frontend:
 
 ```bash
 npm run dev
 ```
 
-Start the backend:
+For the backend:
 
 ```bash
 cd backend
@@ -318,48 +360,62 @@ npm install
 npm start
 ```
 
-The application will then be available locally for development and testing.
-
 ---
 
- 15. Environment Variables
+# 17. Environment Variables
 
-Example frontend configuration:
+Create a `.env` file and configure:
 
 ```env
-VITE_API_URL=http://localhost:3000
 VITE_OPENWEATHER_API_KEY=your_openweather_api_key
-```
 
-Example backend configuration:
-
-```env
 DATABASE_URL=your_postgresql_connection_string
-JWT_SECRET=your_jwt_secret
-NASA_POWER_BASE_URL=https://power.larc.nasa.gov
+
+JWT_SECRET=your_secret_key
+
+NASA_POWER_BASE_URL=https://power.larc.nasa.gov/api
 ```
 
-Environment variables should be managed securely and must not be committed to version control.
+Do **not** commit API keys or secrets to version control.
 
 ---
 
-16. Future Enhancements
+# 18. Future Enhancements
 
-Planned improvements include:
-
-* AI-assisted solar forecasting
-* Machine learning for energy prediction
-* Interactive GIS mapping
+* AI-driven solar generation forecasting
+* Machine learning models for energy prediction
 * Satellite imagery integration
-* Battery storage analytics
-* Electric vehicle charging insights
-* Carbon footprint estimation
+* GIS-based solar suitability analysis
+* Battery energy storage optimization
+* IoT sensor integration
+* Real-time PV monitoring
+* Carbon emissions estimation
 * Multi-language support
-* Mobile application support
-* Advanced reporting and export capabilities
+* Mobile application
+* Advanced geospatial analytics
 
+---
 
+# 19. License
 
- 17. License
+This project is intended for educational, research, and engineering purposes. You may choose an appropriate open-source license (such as the MIT License) before public distribution.
 
-This project is distributed under the MIT License. Users are free to use, modify, and distribute the software in accordance with the terms of the license while preserving appropriate attribution.
+---
+
+## Acknowledgements
+
+SolarVista leverages publicly available datasets and technologies, including:
+
+* NASA POWER API
+* OpenWeather API
+* PostgreSQL
+* React
+* Vite
+* Node.js
+* Express.js
+* Axios
+* GitHub
+* Vercel
+* Render
+
+Together, these components enable an integrated platform for renewable energy intelligence, climate analytics, and interactive engineering visualization.
