@@ -180,16 +180,16 @@ export default function Dashboard() {
       <WeatherWidget />
 
       {settings.welcomeBanner && (
-      <header className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
+      <header className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between px-1">
         <motion.div 
           initial={settings.animations ? { opacity: 0, x: -20 } : false}
           animate={settings.animations ? { opacity: 1, x: 0 } : false}
           className="flex-1"
         >
-          <p className="text-sm font-semibold uppercase tracking-wide text-[#F97316]">
+          <p className="text-xs md:text-sm font-semibold uppercase tracking-wide text-[#F97316]">
             Welcome Back, {user?.fullname.split(' ')[0]} 👋
           </p>
-            <h2 className="mt-1 text-4xl font-bold tracking-tight text-[#0F172A] dark:text-white">
+            <h2 className="mt-1 text-3xl md:text-4xl font-bold tracking-tight text-[#0F172A] dark:text-white">
             {greeting}, {user?.fullname.split(' ')[0]}
           </h2>
           <p className="mt-3 max-w-xl text-sm leading-6 text-slate-600 dark:text-slate-300">

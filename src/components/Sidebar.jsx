@@ -8,13 +8,14 @@ import {
   Sun,
   LogOut,
   Map as MapIcon,
-  Building2
+  Building2,
+  X
 } from "lucide-react";
 import { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 
-export default function Sidebar() {
+export default function Sidebar({ isOpen, onClose }) {
   const { logout } = useAuth();
   const navigate = useNavigate();
   const [showLogoutModal, setShowLogoutModal] = useState(false);
@@ -76,19 +77,32 @@ export default function Sidebar() {
 
   return (
     <>
-      <aside className="border-r border-slate-800 bg-[#0B132B] px-4 py-5 text-white shadow-xl md:min-h-screen md:w-[260px] md:shrink-0 flex flex-col relative z-50">
-        <div className="mb-8 flex items-center gap-3 px-2">
-          <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-amber-400 text-slate-950 shadow-lg shadow-amber-400/20">
-            <Sun size={23} />
+      <aside className={`
+        fixed inset-y-0 left-0 z-50 w-[280px] bg-[#0B132B] px-4 py-5 text-white shadow-2xl transition-transform duration-300 ease-in-out md:static md:translate-x-0 md:shrink-0 flex flex-col
+        ${isOpen ? "translate-x-0" : "-translate-x-full"}
+      `}>
+        <div className="mb-8 flex items-center justify-between px-2">
+          <div className="flex items-center gap-3">
+            <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-amber-400 text-slate-950 shadow-lg shadow-amber-400/20">
+              <Sun size={23} />
+            </div>
+
+            <div>
+              <h1 className="text-lg font-bold tracking-tight text-white">SolarVista</h1>
+              <p className="text-xs font-medium text-slate-400 uppercase tracking-widest">Intelligence</p>
+            </div>
           </div>
 
-          <div>
-            <h1 className="text-lg font-bold tracking-tight text-white">SolarVista</h1>
-            <p className="text-xs font-medium text-slate-400 uppercase tracking-widest">Intelligence</p>
-          </div>
+          {/* Close button - Mobile only */}
+          <button 
+            onClick={onClose}
+            className="p-2 rounded-lg hover:bg-white/10 text-slate-400 md:hidden transition-colors"
+          >
+            <X size={24} />
+          </button>
         </div>
 
-        <nav className="flex gap-2 overflow-x-auto text-sm font-medium md:block md:space-y-1 flex-1">
+        <nav className="flex-1 space-y-1 overflow-y-auto pr-2 custom-scrollbar">
           {links.map((link) => {
             const Icon = link.icon;
             return (
@@ -96,8 +110,11 @@ export default function Sidebar() {
                 key={link.to}
                 to={link.to}
                 end={link.end}
+                onClick={() => {
+                  if (window.innerWidth < 768) onClose();
+                }}
                 className={({ isActive }) =>
-                  `flex min-w-fit items-center gap-3 rounded-xl px-3 py-2.5 transition ${
+                  `flex items-center gap-3 rounded-xl px-3 py-2.5 transition ${
                     isActive
                       ? "bg-amber-400 text-slate-950 shadow-sm"
                       : "text-slate-400 hover:bg-white/5 hover:text-white"

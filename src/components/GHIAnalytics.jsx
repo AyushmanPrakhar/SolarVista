@@ -14,8 +14,8 @@ const GHIAnalytics = () => {
   }, []);
 
   return (
-    <div className="p-6 bg-white rounded-2xl shadow-lg">
-      <h2 className="text-3xl font-bold mb-6 text-blue-700">
+    <div className="p-4 md:p-6 bg-white rounded-2xl shadow-lg">
+      <h2 className="text-2xl md:text-3xl font-bold mb-6 text-blue-700">
         GHI Analytics Dashboard
       </h2>
 

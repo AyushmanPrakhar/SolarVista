@@ -79,22 +79,22 @@ export default function SolarParks() {
   return (
     <div className="mx-auto max-w-screen-2xl space-y-8 pb-20 text-slate-900">
       {/* Header & Global Filters */}
-      <header className="flex flex-col xl:flex-row xl:items-end justify-between gap-6 bg-white p-8 rounded-[2.5rem] border border-slate-200 shadow-sm">
+      <header className="flex flex-col xl:flex-row xl:items-end justify-between gap-6 bg-white p-5 md:p-8 rounded-2xl md:rounded-[2.5rem] border border-slate-200 shadow-sm mx-1">
         <div className="space-y-1">
-          <div className="inline-flex items-center gap-2 px-3 py-1 bg-amber-50 rounded-full text-amber-700 text-xs font-black uppercase tracking-widest border border-amber-100/50">
+          <div className="inline-flex items-center gap-2 px-3 py-1 bg-amber-50 rounded-full text-amber-700 text-[10px] md:text-xs font-black uppercase tracking-widest border border-amber-100/50">
             <Building2 size={14} />
             Physical Asset Tracking
           </div>
-          <h1 className="text-4xl font-black tracking-tight text-[#0B132B]">Infrastructure Intelligence</h1>
-          <p className="text-slate-500 font-medium">Monitoring utility-scale solar parks across the Indian subcontinent.</p>
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-black tracking-tight text-[#0B132B]">Infrastructure Intelligence</h1>
+          <p className="text-sm md:text-base text-slate-500 font-medium">Monitoring utility-scale solar parks across the Indian subcontinent.</p>
         </div>
 
         <div className="flex flex-wrap items-center gap-4">
-          <div className="space-y-1.5">
+          <div className="space-y-1.5 w-full sm:w-auto">
              <label className="text-[10px] font-black uppercase text-slate-400 tracking-widest px-1">Filter by State</label>
              <div className="relative">
                <select 
-                 className="appearance-none bg-slate-50 border border-slate-200 rounded-xl pl-4 pr-10 py-2.5 text-sm font-bold focus:outline-none focus:ring-4 focus:ring-orange-100 transition-all cursor-pointer min-w-[180px]"
+                 className="appearance-none w-full sm:w-auto bg-slate-50 border border-slate-200 rounded-xl pl-4 pr-10 py-2.5 text-sm font-bold focus:outline-none focus:ring-4 focus:ring-orange-100 transition-all cursor-pointer min-w-[180px]"
                  value={filters.state}
                  onChange={(e) => setFilters(prev => ({ ...prev, state: e.target.value }))}
                >
@@ -105,11 +105,11 @@ export default function SolarParks() {
              </div>
           </div>
 
-          <div className="space-y-1.5">
+          <div className="space-y-1.5 w-full sm:w-auto">
              <label className="text-[10px] font-black uppercase text-slate-400 tracking-widest px-1">Operational Status</label>
              <div className="relative">
                <select 
-                 className="appearance-none bg-slate-50 border border-slate-200 rounded-xl pl-4 pr-10 py-2.5 text-sm font-bold focus:outline-none focus:ring-4 focus:ring-orange-100 transition-all cursor-pointer"
+                 className="appearance-none w-full sm:w-auto bg-slate-50 border border-slate-200 rounded-xl pl-4 pr-10 py-2.5 text-sm font-bold focus:outline-none focus:ring-4 focus:ring-orange-100 transition-all cursor-pointer"
                  value={filters.status}
                  onChange={(e) => setFilters(prev => ({ ...prev, status: e.target.value }))}
                >
@@ -123,7 +123,7 @@ export default function SolarParks() {
 
           <button 
             onClick={() => setFilters({ state: "All", status: "All", minCapacity: 0 })}
-            className="mt-5 p-3 bg-slate-100 text-slate-500 rounded-xl hover:bg-orange-50 hover:text-orange-600 transition-all active:scale-95"
+            className="p-3 bg-slate-100 text-slate-500 rounded-xl hover:bg-orange-50 hover:text-orange-600 transition-all active:scale-95 sm:mt-5"
             title="Reset Filters"
           >
             <RefreshCw size={18} />

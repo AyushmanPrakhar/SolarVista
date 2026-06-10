@@ -238,7 +238,7 @@ export default function AerosolImpact({ selectedState: syncedSelectedState = "Al
               <MapPinned size={14} />
               Renewable energy risk analytics
             </div>
-            <h1 className="mt-3 text-3xl font-semibold tracking-tight text-slate-900 lg:text-4xl">
+            <h1 className="mt-3 text-2xl md:text-3xl font-semibold tracking-tight text-slate-900 lg:text-4xl">
               Aerosol Impact and Solar Revenue Intelligence
             </h1>
             <p className="mt-2 text-sm leading-6 text-slate-600 lg:text-base">

@@ -17,6 +17,8 @@ import { SettingsProvider } from './context/SettingsContext';
 import ProtectedRoute from './components/ProtectedRoute';
 
 function App() {
+console.log("ENV KEYS:", Object.keys(import.meta.env));
+console.log("TEST:", import.meta.env.VITE_TEST);
   return (
     <SettingsProvider>
       <AuthProvider>
